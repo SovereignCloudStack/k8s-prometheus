@@ -1,0 +1,14 @@
+name_path: prometheus
+name_title:
+- Prometheus®
+name_description: Prometheus
+references:
+- type: Project website
+  name: prometheus.io
+  href: https://prometheus.io/
+- type: Github project
+  name: prometheus/prometheus
+  href: https://github.com/prometheus/prometheus
+attributions:
+- trademark: Prometheus
+  owner: The Linux Foundation

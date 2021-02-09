@@ -1,0 +1,25 @@
+---
+- git: https://github.com/SovereignCloudStack/generics.git
+  version: master
+  files:
+    - src: github/*.yml
+      dst: .github/
+    - src: github/workflows/*.yml
+      dst: .github/workflows/
+    - src: k8s/ci-test-workflow.yml
+      dst: .github/workflows/
+    - src: k8s/gilt.yml
+      dst: ./gilt.yml
+    - src: k8s/README.md
+      dst: ./README.md
+    - src: k8s/render-template.py
+      dst: ./render-template.py
+    - src: k8s/create-test-stubs.sh
+      dst: ./create-test-stubs.sh
+    - src: k8s/.gitignore
+      dst: ./
+      post_commands:
+        - ./create-test-stubs.sh
+        - python3 render-template.py README.md
+        - mkdir -p envs/ci-testing
+        - rm render-template.py create-test-stubs.sh
