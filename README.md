@@ -26,8 +26,8 @@ These tests are implemented using GitHub Actions/Workflows.
 | | |
 | --- | --- |
 | CI smoke test | ![Smoke test](https://github.com/SovereignCloudStack/k8s-prometheus/workflows/CI/badge.svg) |
-| Project website | [prometheus.io](https://prometheus.io/) |
-| Github project | [prometheus/prometheus](https://github.com/prometheus/prometheus) |
+| Upstream website | [prometheus.io](https://prometheus.io/) |
+| Upstream repository | [prometheus/prometheus](https://github.com/prometheus/prometheus) |
 
 
 

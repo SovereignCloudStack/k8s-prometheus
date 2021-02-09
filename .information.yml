@@ -3,10 +3,10 @@ name_title:
 - Prometheus®
 name_description: Prometheus
 references:
-- type: Project website
+- type: Upstream website
   name: prometheus.io
   href: https://prometheus.io/
-- type: Github project
+- type: Upstream repository
   name: prometheus/prometheus
   href: https://github.com/prometheus/prometheus
 attributions:
