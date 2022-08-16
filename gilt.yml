@@ -1,6 +1,6 @@
 ---
 - git: https://github.com/SovereignCloudStack/generics.git
-  version: master
+  version: main
   files:
     - src: github/*.yml
       dst: .github/
